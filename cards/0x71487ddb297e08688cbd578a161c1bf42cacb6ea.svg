@@ -7,8 +7,8 @@
   <text x="28" y="138" font-size="15" fill="#bdbab3">Forge</text>
   <circle cx="420" cy="112" r="40" fill="#e5484d"/><text x="420" y="128" font-size="46" font-weight="900" fill="#141413" text-anchor="middle">F</text>
   <text x="28" y="182" font-size="12" fill="#8f8c85" letter-spacing="1">MARKET CAP</text><text x="28" y="206" font-size="20" font-weight="800" fill="#fff">$17.1k</text>
-  <text x="180" y="182" font-size="12" fill="#8f8c85" letter-spacing="1">24 H VOLUME</text><text x="180" y="206" font-size="20" font-weight="800" fill="#fff">$5.6k</text>
-  <text x="340" y="182" font-size="12" fill="#8f8c85" letter-spacing="1">24 H</text><text x="340" y="206" font-size="20" font-weight="800" fill="#e5484d">-26%</text>
+  <text x="180" y="182" font-size="12" fill="#8f8c85" letter-spacing="1">24 H VOLUME</text><text x="180" y="206" font-size="20" font-weight="800" fill="#fff">$3.8k</text>
+  <text x="340" y="182" font-size="12" fill="#8f8c85" letter-spacing="1">24 H</text><text x="340" y="206" font-size="20" font-weight="800" fill="#e5484d">-25%</text>
   <text x="28" y="250" font-size="12" fill="#8f8c85" letter-spacing="1">CHAINS</text><text x="28" y="272" font-size="13" font-weight="700" fill="#e8e6e1">ETH · BSC · BASE · RH · SOL</text>
   <rect x="28" y="296" width="444" height="38" rx="8" fill="#ffffff10"/>
   <text x="42" y="320" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">SUPPLY</text>
@@ -28,12 +28,12 @@
   <text x="200" y="452" font-size="11.5" fill="#e8e6e1">11.8% between cheapest and dearest chain</text>
   <rect x="28" y="472" width="444" height="38" rx="8" fill="#ffffff10"/>
   <text x="42" y="496" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">TRACTION</text>
-  <rect x="130" y="481" width="60" height="20" rx="10" fill="#f2b134"/><text x="160" y="495" font-size="11" font-weight="800" fill="#111" text-anchor="middle">WATCH</text>
-  <text x="200" y="496" font-size="11.5" fill="#e8e6e1">$5.6k traded in 24 h</text>
+  <rect x="130" y="481" width="60" height="20" rx="10" fill="#e5484d"/><text x="160" y="495" font-size="11" font-weight="800" fill="#111" text-anchor="middle">FAIL</text>
+  <text x="200" y="496" font-size="11.5" fill="#e8e6e1">$3.8k traded in 24 h</text>
   <rect x="28" y="516" width="444" height="38" rx="8" fill="#ffffff10"/>
   <text x="42" y="540" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">SURVIVAL</text>
   <rect x="130" y="525" width="60" height="20" rx="10" fill="#e5484d"/><text x="160" y="539" font-size="11" font-weight="800" fill="#111" text-anchor="middle">FAIL</text>
-  <text x="200" y="540" font-size="11.5" fill="#e8e6e1">1.9 days old, volume faded</text>
+  <text x="200" y="540" font-size="11.5" fill="#e8e6e1">2.0 days old, volume faded</text>
   <rect x="28" y="560" width="444" height="38" rx="8" fill="#ffffff10"/>
   <text x="42" y="584" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">FEES</text>
   <rect x="130" y="569" width="60" height="20" rx="10" fill="#6b6a66"/><text x="160" y="583" font-size="11" font-weight="800" fill="#111" text-anchor="middle">N/A</text>
@@ -46,7 +46,7 @@
   <text x="42" y="672" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">TEAM</text>
   <rect x="130" y="657" width="60" height="20" rx="10" fill="#6b6a66"/><text x="160" y="671" font-size="11" font-weight="800" fill="#111" text-anchor="middle">N/A</text>
   <text x="200" y="672" font-size="11.5" fill="#e8e6e1">team wallets not traced yet</text>
-  <text x="28" y="724" font-size="10.5" fill="#8f8c85">Checked on-chain 2026-10-30 11:53 UTC · ETH 0x71487D…ACb6eA</text>
+  <text x="28" y="724" font-size="10.5" fill="#8f8c85">Checked on-chain 2026-10-30 14:01 UTC · ETH 0x71487D…ACb6eA</text>
   <text x="28" y="742" font-size="10.5" fill="#8f8c85">No grade cap applied</text>
   <text x="28" y="760" font-size="10.5" fill="#8f8c85">Every line has on-chain proof: receipts.json · Facts, not financial advice.</text>
 </svg>

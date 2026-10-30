@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T13:58:01.341Z",
+ "generatedAt": "2026-10-30T14:39:55.687Z",
  "source": "public chain data + DexScreener, via empire-paper scripts/pangea-scan.js",
  "platform": {
   "launchpad": "Pangea",
@@ -15,13 +15,13 @@
   },
   "traction": {
    "launches24h": 10,
-   "launchesPerDay": 54.9,
+   "launchesPerDay": 54.7,
    "over50k": 2,
-   "over10k": 5,
-   "visibleVolumeUsd": 2915715,
-   "pangeaSharePct": 87.8,
-   "medianSpreadPct": 8.6,
-   "launchesWithoutEthereumLeg": 166,
+   "over10k": 6,
+   "visibleVolumeUsd": 2964354,
+   "pangeaSharePct": 87.9,
+   "medianSpreadPct": 7,
+   "launchesWithoutEthereumLeg": 204,
    "robinhoodSeeded": 967
   }
  },
@@ -38,9 +38,9 @@
     "robinhood": "0x30de7ae4c9578d110a97367ede9f7765cdce06ea"
    },
    "solanaMint": "JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea",
-   "mcapUsd": 5881250,
-   "vol24": 2558580.6100000003,
-   "chg24": -24,
+   "mcapUsd": 5321250,
+   "vol24": 2604911.2700000005,
+   "chg24": -28.88,
    "chains": [
     "ETH",
     "BSC",
@@ -59,15 +59,15 @@
     },
     "liquidity": {
      "v": "PASS",
-     "text": "$441.2k across all pools"
+     "text": "$416.8k across all pools"
     },
     "gap": {
      "v": "WATCH",
-     "text": "3.7% between cheapest and dearest chain"
+     "text": "3.2% between cheapest and dearest chain"
     },
     "traction": {
      "v": "PASS",
-     "text": "$2.56M traded in 24 h"
+     "text": "$2.60M traded in 24 h"
     },
     "survival": {
      "v": "PASS",
@@ -88,7 +88,7 @@
     },
     "burns": {
      "v": "PASS",
-     "text": "94.5M burnt (1.9% of supply) · +40.9M in 7 d"
+     "text": "94.7M burnt (1.9% of supply) · +41.1M in 7 d"
     }
    },
    "grade": {
@@ -96,7 +96,7 @@
     "capped": false,
     "tier": "EPIC"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0x7569b056bf257b3345d77f935dd857ff87339c1719186f3b06183d3354409e4a",
     "factory": null,
@@ -121,9 +121,9 @@
     "robinhood": "0xdba134ad399e15d9175ce6bc97beca7001fb96ea"
    },
    "solanaMint": "5KtxmGhFfy6QaoU3Qtu2ouweqq1qfXfNZHg3CJH7y6ea",
-   "mcapUsd": 76312,
-   "vol24": 131197.47,
-   "chg24": -60.38,
+   "mcapUsd": 76163,
+   "vol24": 126522.59000000001,
+   "chg24": -57.58,
    "chains": [
     "ETH",
     "BSC",
@@ -142,15 +142,15 @@
     },
     "liquidity": {
      "v": "WATCH",
-     "text": "$41.6k across all pools"
+     "text": "$41.4k across all pools"
     },
     "gap": {
      "v": "WATCH",
-     "text": "6.2% between cheapest and dearest chain"
+     "text": "5.5% between cheapest and dearest chain"
     },
     "traction": {
      "v": "PASS",
-     "text": "$131.2k traded in 24 h"
+     "text": "$126.5k traded in 24 h"
     },
     "survival": {
      "v": "PASS",
@@ -174,7 +174,7 @@
     "capped": false,
     "tier": "RARE"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0x9bd8d4de0da48b25d182b89420fcab2c3e8eb322fbb61dceccf755e8bdf97822",
     "factory": "0x42CBF0f8a66B04E9537b58e9F5921ABf610FBb8a",
@@ -199,9 +199,9 @@
     "robinhood": "0xf42b4e1a3fd374b1f849bf898edc64ab17df06ea"
    },
    "solanaMint": "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea",
-   "mcapUsd": 125225,
-   "vol24": 118799.70999999999,
-   "chg24": -51.94,
+   "mcapUsd": 144113,
+   "vol24": 120604.55,
+   "chg24": -43.31,
    "chains": [
     "ETH",
     "BSC",
@@ -220,15 +220,15 @@
     },
     "liquidity": {
      "v": "WATCH",
-     "text": "$56.3k across all pools"
+     "text": "$61.0k across all pools"
     },
     "gap": {
-     "v": "WATCH",
-     "text": "4.3% between cheapest and dearest chain"
+     "v": "PASS",
+     "text": "1.1% between cheapest and dearest chain"
     },
     "traction": {
      "v": "PASS",
-     "text": "$118.8k traded in 24 h"
+     "text": "$120.6k traded in 24 h"
     },
     "survival": {
      "v": "PASS",
@@ -252,7 +252,7 @@
     "capped": false,
     "tier": "EPIC"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0x3662f5f9aba022df5eef97cdc2c1cf6e100bbe8515ac6e55e950d395b4bdab58",
     "factory": "0x42CBF0f8a66B04E9537b58e9F5921ABf610FBb8a",
@@ -277,9 +277,9 @@
     "robinhood": "0xcb1172b34306cae952fa806a4930b8f05ea436ea"
    },
    "solanaMint": "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea",
-   "mcapUsd": 87550,
-   "vol24": 39232.06,
-   "chg24": -31.19,
+   "mcapUsd": 81925,
+   "vol24": 40358.94,
+   "chg24": -37.61,
    "chains": [
     "ETH",
     "BSC",
@@ -298,15 +298,15 @@
     },
     "liquidity": {
      "v": "WATCH",
-     "text": "$44.3k across all pools"
+     "text": "$42.4k across all pools"
     },
     "gap": {
-     "v": "FAIL",
-     "text": "9.7% between cheapest and dearest chain"
+     "v": "WATCH",
+     "text": "7% between cheapest and dearest chain"
     },
     "traction": {
      "v": "WATCH",
-     "text": "$39.2k traded in 24 h"
+     "text": "$40.4k traded in 24 h"
     },
     "survival": {
      "v": "PASS",
@@ -326,11 +326,11 @@
     }
    },
    "grade": {
-    "g": "C",
+    "g": "B",
     "capped": false,
-    "tier": "RARE"
+    "tier": "EPIC"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0xec74a7a26583613289f482491fe2bcf677a9f8e8eb9968d43f296d42f329f4aa",
     "factory": null,
@@ -355,9 +355,9 @@
     "robinhood": "0xb6a7f6211e97f341bb270479ce0348dc1cf156ea"
    },
    "solanaMint": "ALYcaLvdxJjq65cSJLoHFtxfPMAqeYBUspVG4wk5t6ea",
-   "mcapUsd": 40355,
-   "vol24": 19931.05,
-   "chg24": -28.1,
+   "mcapUsd": 38727,
+   "vol24": 21438.120000000003,
+   "chg24": -31.61,
    "chains": [
     "ETH",
     "BSC",
@@ -376,15 +376,15 @@
     },
     "liquidity": {
      "v": "WATCH",
-     "text": "$26.5k across all pools"
+     "text": "$25.7k across all pools"
     },
     "gap": {
      "v": "WATCH",
-     "text": "4.6% between cheapest and dearest chain"
+     "text": "4.9% between cheapest and dearest chain"
     },
     "traction": {
      "v": "WATCH",
-     "text": "$19.9k traded in 24 h"
+     "text": "$21.4k traded in 24 h"
     },
     "survival": {
      "v": "PASS",
@@ -408,7 +408,7 @@
     "capped": false,
     "tier": "EPIC"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0xf9100260e00f3bb580f4186d0d7a1ac12e12beccac85b73bdc6179821fea88c6",
     "factory": null,
@@ -466,7 +466,7 @@
     },
     "survival": {
      "v": "WATCH",
-     "text": "22 h old: too new to judge"
+     "text": "23 h old: too new to judge"
     },
     "fees": {
      "v": "N/A",
@@ -486,7 +486,7 @@
     "capped": false,
     "tier": "RARE"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0x1ee29ed3809f086645d38450b4fcd7ed961653b7c70df6ae9d9b1df9da791918",
     "factory": "0xf7052a4E38e241bc66bfAe6eB27D10B2A42cacB4",
@@ -511,9 +511,9 @@
     "robinhood": "0xb4df2bb2512a0f2edf7f515ad4a7144dd99d06ea"
    },
    "solanaMint": "EUWjjJfJj5UWJeanX4AjiqSXECv2amQW7VDgAsQuf6ea",
-   "mcapUsd": 22781,
-   "vol24": 6955.33,
-   "chg24": -10.66,
+   "mcapUsd": 20900,
+   "vol24": 12498.029999999999,
+   "chg24": -17.41,
    "chains": [
     "ETH",
     "BSC",
@@ -532,19 +532,19 @@
     },
     "liquidity": {
      "v": "FAIL",
-     "text": "$17.3k across all pools (thin)"
+     "text": "$16.1k across all pools (thin)"
     },
     "gap": {
      "v": "WATCH",
-     "text": "3.7% between cheapest and dearest chain"
+     "text": "6.2% between cheapest and dearest chain"
     },
     "traction": {
      "v": "WATCH",
-     "text": "$7.0k traded in 24 h"
+     "text": "$12.5k traded in 24 h"
     },
     "survival": {
-     "v": "FAIL",
-     "text": "8.6 days old, volume faded"
+     "v": "PASS",
+     "text": "8.7 days old, still trading"
     },
     "fees": {
      "v": "N/A",
@@ -560,11 +560,11 @@
     }
    },
    "grade": {
-    "g": "D",
+    "g": "C",
     "capped": false,
-    "tier": "COMMON"
+    "tier": "RARE"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0x7cd87cc2c31e32c2964640726478073817857042660b5522f79792bd1c10ffd2",
     "factory": null,
@@ -589,8 +589,8 @@
     "robinhood": "0x619b1bb8eee6180805a0188ad6f06810d6dac6ea"
    },
    "solanaMint": "FTqbB8HxTHKQVDzBPN1Pq45sSfQLUapZ4UvnsYYUJ6ea",
-   "mcapUsd": 18422,
-   "vol24": 5997.16,
+   "mcapUsd": 18096,
+   "vol24": 6049.52,
    "chg24": -6.44,
    "chains": [
     "ETH",
@@ -610,11 +610,11 @@
     },
     "liquidity": {
      "v": "FAIL",
-     "text": "$14.5k across all pools (thin)"
+     "text": "$14.2k across all pools (thin)"
     },
     "gap": {
      "v": "FAIL",
-     "text": "12.3% between cheapest and dearest chain"
+     "text": "14.9% between cheapest and dearest chain"
     },
     "traction": {
      "v": "WATCH",
@@ -642,88 +642,10 @@
     "capped": false,
     "tier": "THIN ICE"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0x84700e181c376029a7ec0e6f1b9a97fa519deb97c11a59f8175487a0db07a995",
     "factory": null,
-    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
-    "platformKey": {
-     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
-     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
-     "lastDeploySlot": 461179193
-    },
-    "vault": null
-   }
-  },
-  {
-   "launchpad": "Pangea",
-   "symbol": "FORGE",
-   "name": "Forge",
-   "address": "0x71487Ddb297e08688Cbd578A161c1bF42CACb6eA",
-   "legs": {
-    "ethereum": "0x71487Ddb297e08688Cbd578A161c1bF42CACb6eA",
-    "bsc": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea",
-    "base": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea",
-    "robinhood": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea"
-   },
-   "solanaMint": "A5Zv6p1zAZPzXEgoLHQe6vUj4GTVoyiuYr9zpXA8g6ea",
-   "mcapUsd": 17088,
-   "vol24": 5621.14,
-   "chg24": -25.91,
-   "chains": [
-    "ETH",
-    "BSC",
-    "BASE",
-    "RH",
-    "SOL"
-   ],
-   "checks": {
-    "supply": {
-     "v": "PASS",
-     "text": "adds up across chains (5 chains)"
-    },
-    "mint": {
-     "v": "WATCH",
-     "text": "EVM sealed · Solana: one-wallet upgrade key"
-    },
-    "liquidity": {
-     "v": "FAIL",
-     "text": "$13.6k across all pools (thin)"
-    },
-    "gap": {
-     "v": "FAIL",
-     "text": "11.8% between cheapest and dearest chain"
-    },
-    "traction": {
-     "v": "WATCH",
-     "text": "$5.6k traded in 24 h"
-    },
-    "survival": {
-     "v": "FAIL",
-     "text": "1.9 days old, volume faded"
-    },
-    "fees": {
-     "v": "N/A",
-     "text": "standard launch (no tokenomics vault)"
-    },
-    "launch": {
-     "v": "N/A",
-     "text": "launch buys not read (history too long or other chains)"
-    },
-    "team": {
-     "v": "N/A",
-     "text": "team wallets not traced yet"
-    }
-   },
-   "grade": {
-    "g": "F",
-    "capped": false,
-    "tier": "THIN ICE"
-   },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
-   "receipts": {
-    "launchTx": "0x86c0ddb4c819a5364b06a4e94f801c371c557a9c755a8e5a3bdaef5932a63870",
-    "factory": "0xf7052a4E38e241bc66bfAe6eB27D10B2A42cacB4",
     "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
     "platformKey": {
      "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
@@ -745,9 +667,9 @@
     "robinhood": "0x34b725a4268e409d15cd70cc09489d99372306ea"
    },
    "solanaMint": "7Tm28BFytYmjSBakML9P6AJJ45rJ5CS12oqxMahZ66ea",
-   "mcapUsd": 4335,
-   "vol24": 4878.21,
-   "chg24": -46,
+   "mcapUsd": 4293,
+   "vol24": 3819.39,
+   "chg24": -31.76,
    "chains": [
     "ETH",
     "BSC",
@@ -774,7 +696,7 @@
     },
     "traction": {
      "v": "FAIL",
-     "text": "$4.9k traded in 24 h"
+     "text": "$3.8k traded in 24 h"
     },
     "survival": {
      "v": "FAIL",
@@ -798,9 +720,87 @@
     "capped": false,
     "tier": "THIN ICE"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0x8690ddaf70203825fad33bfbd6936441fd61a0a6e5f300c42a2fdafe5e077d39",
+    "factory": "0xf7052a4E38e241bc66bfAe6eB27D10B2A42cacB4",
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "FORGE",
+   "name": "Forge",
+   "address": "0x71487Ddb297e08688Cbd578A161c1bF42CACb6eA",
+   "legs": {
+    "ethereum": "0x71487Ddb297e08688Cbd578A161c1bF42CACb6eA",
+    "bsc": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea",
+    "base": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea",
+    "robinhood": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea"
+   },
+   "solanaMint": "A5Zv6p1zAZPzXEgoLHQe6vUj4GTVoyiuYr9zpXA8g6ea",
+   "mcapUsd": 17088,
+   "vol24": 3804,
+   "chg24": -24.76,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$13.6k across all pools (thin)"
+    },
+    "gap": {
+     "v": "FAIL",
+     "text": "11.8% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "FAIL",
+     "text": "$3.8k traded in 24 h"
+    },
+    "survival": {
+     "v": "FAIL",
+     "text": "2.0 days old, volume faded"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "F",
+    "capped": false,
+    "tier": "THIN ICE"
+   },
+   "checkedAt": "2026-10-30T14:01:40.063Z",
+   "receipts": {
+    "launchTx": "0x86c0ddb4c819a5364b06a4e94f801c371c557a9c755a8e5a3bdaef5932a63870",
     "factory": "0xf7052a4E38e241bc66bfAe6eB27D10B2A42cacB4",
     "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
     "platformKey": {
@@ -824,7 +824,7 @@
    },
    "solanaMint": "E4ZCvJpKVACuXTC3419PUf3bcDDr5utM5nxJvzGum6ea",
    "mcapUsd": 20142,
-   "vol24": 3088.2799999999997,
+   "vol24": 3042.62,
    "chg24": -14.59,
    "chains": [
     "ETH",
@@ -852,11 +852,11 @@
     },
     "traction": {
      "v": "FAIL",
-     "text": "$3.1k traded in 24 h"
+     "text": "$3.0k traded in 24 h"
     },
     "survival": {
      "v": "FAIL",
-     "text": "8.8 days old, volume faded"
+     "text": "8.9 days old, volume faded"
     },
     "fees": {
      "v": "N/A",
@@ -876,7 +876,7 @@
     "capped": false,
     "tier": "THIN ICE"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0xba6f4bdab4765f52ec4d5d4f21c2bf9f109ff1bfe1c14fa4d8845ec4d0ed89af",
     "factory": null,
@@ -934,7 +934,7 @@
     },
     "survival": {
      "v": "FAIL",
-     "text": "3.6 days old, volume faded"
+     "text": "3.7 days old, volume faded"
     },
     "fees": {
      "v": "N/A",
@@ -954,7 +954,7 @@
     "capped": false,
     "tier": "THIN ICE"
    },
-   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "checkedAt": "2026-10-30T14:01:40.063Z",
    "receipts": {
     "launchTx": "0xcb76e279cd363f8f4fa5eadb0573a05f3fcf55778f470202344ef41569790861",
     "factory": "0x42CBF0f8a66B04E9537b58e9F5921ABf610FBb8a",
