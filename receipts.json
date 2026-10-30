@@ -1,0 +1,971 @@
+{
+ "generatedAt": "2026-10-30T13:54:31.179Z",
+ "source": "public chain data + DexScreener, via empire-paper scripts/pangea-scan.js",
+ "platform": {
+  "launchpad": "Pangea",
+  "oft": {
+   "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+   "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+   "lastDeploySlot": 461179193
+  },
+  "splitter": {
+   "program": "Hb5uTppRbNxc3RjVRqTWqfdU3E3GiZyGYKccxYf9tUej",
+   "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+   "lastDeploySlot": 462860921
+  },
+  "traction": {
+   "launches24h": 10,
+   "launchesPerDay": 54.9,
+   "over50k": 2,
+   "over10k": 5,
+   "visibleVolumeUsd": 2915715,
+   "pangeaSharePct": 87.8,
+   "medianSpreadPct": 8.6,
+   "launchesWithoutEthereumLeg": 166,
+   "robinhoodSeeded": 967
+  }
+ },
+ "cards": [
+  {
+   "launchpad": "Pangea",
+   "symbol": "PANGEA",
+   "name": "Pangea",
+   "address": "0x6434e57e8d12B92bb4D0b1EFb3274748B75196ea",
+   "legs": {
+    "ethereum": "0x6434e57e8d12B92bb4D0b1EFb3274748B75196ea",
+    "bsc": "0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea",
+    "base": "0xa551def8a44ea423caa58da45b3f5764004286ea",
+    "robinhood": "0x30de7ae4c9578d110a97367ede9f7765cdce06ea"
+   },
+   "solanaMint": "JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea",
+   "mcapUsd": 5881250,
+   "vol24": 2558580.6100000003,
+   "chg24": -24,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "PASS",
+     "text": "$441.2k across all pools"
+    },
+    "gap": {
+     "v": "WATCH",
+     "text": "3.7% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "PASS",
+     "text": "$2.56M traded in 24 h"
+    },
+    "survival": {
+     "v": "PASS",
+     "text": "8.9 days old, still trading"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "FAIL",
+     "text": "40 wallets took 30% of the ETH pool at launch",
+     "source": "empire-nerve/reports/dd-pangea-2026-10-24/bundle-2026-10-29/BUNDLE-2026-10-29.md"
+    },
+    "team": {
+     "v": "WATCH",
+     "text": "locks 718M · treasury -70M in 7 d"
+    },
+    "burns": {
+     "v": "PASS",
+     "text": "94.5M burnt (1.9% of supply) · +40.9M in 7 d"
+    }
+   },
+   "grade": {
+    "g": "B",
+    "capped": false,
+    "tier": "EPIC"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x7569b056bf257b3345d77f935dd857ff87339c1719186f3b06183d3354409e4a",
+    "factory": null,
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "ZGAP",
+   "name": "Zero Gap",
+   "address": "0xdbA134AD399e15D9175CE6bC97BEcA7001Fb96eA",
+   "legs": {
+    "ethereum": "0xdbA134AD399e15D9175CE6bC97BEcA7001Fb96eA",
+    "bsc": "0xdba134ad399e15d9175ce6bc97beca7001fb96ea",
+    "base": "0xdba134ad399e15d9175ce6bc97beca7001fb96ea",
+    "robinhood": "0xdba134ad399e15d9175ce6bc97beca7001fb96ea"
+   },
+   "solanaMint": "5KtxmGhFfy6QaoU3Qtu2ouweqq1qfXfNZHg3CJH7y6ea",
+   "mcapUsd": 76312,
+   "vol24": 131197.47,
+   "chg24": -60.38,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "FAIL",
+     "text": "-0.6843% vs launch total"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "WATCH",
+     "text": "$41.6k across all pools"
+    },
+    "gap": {
+     "v": "WATCH",
+     "text": "6.2% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "PASS",
+     "text": "$131.2k traded in 24 h"
+    },
+    "survival": {
+     "v": "PASS",
+     "text": "5.0 days old, still trading"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "C",
+    "capped": false,
+    "tier": "RARE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x9bd8d4de0da48b25d182b89420fcab2c3e8eb322fbb61dceccf755e8bdf97822",
+    "factory": "0x42CBF0f8a66B04E9537b58e9F5921ABf610FBb8a",
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "ONECOIN",
+   "name": "one coin",
+   "address": "0x373C863E4C34Db35B58C98Dd15a018E1ab53F6ea",
+   "legs": {
+    "ethereum": "0x373C863E4C34Db35B58C98Dd15a018E1ab53F6ea",
+    "bsc": "0x6b6b3e166ec666ea16525265c533360b769e56ea",
+    "base": "0x456ac19c8a72aed16376d57c367640d69ff9e6ea",
+    "robinhood": "0xf42b4e1a3fd374b1f849bf898edc64ab17df06ea"
+   },
+   "solanaMint": "92knjMkuhwaTPpSz8EDPesxiqkp83RBScby9jrTmU6ea",
+   "mcapUsd": 125225,
+   "vol24": 118799.70999999999,
+   "chg24": -51.94,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "WATCH",
+     "text": "-0.2492% vs launch total"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "WATCH",
+     "text": "$56.3k across all pools"
+    },
+    "gap": {
+     "v": "WATCH",
+     "text": "4.3% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "PASS",
+     "text": "$118.8k traded in 24 h"
+    },
+    "survival": {
+     "v": "PASS",
+     "text": "4.8 days old, still trading"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "B",
+    "capped": false,
+    "tier": "EPIC"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x3662f5f9aba022df5eef97cdc2c1cf6e100bbe8515ac6e55e950d395b4bdab58",
+    "factory": "0x42CBF0f8a66B04E9537b58e9F5921ABf610FBb8a",
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "PVE",
+   "name": "PVE",
+   "address": "0x5fA358b0449F32AfbE28D39E96D729F7229AF6Ea",
+   "legs": {
+    "ethereum": "0x5fA358b0449F32AfbE28D39E96D729F7229AF6Ea",
+    "bsc": "0x0d1a5954dad14a05ebde84e9c5e1595bf64ce6ea",
+    "base": "0xd8fcf7887d60934a447080a5ff314fd8c89bf6ea",
+    "robinhood": "0xcb1172b34306cae952fa806a4930b8f05ea436ea"
+   },
+   "solanaMint": "EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea",
+   "mcapUsd": 87550,
+   "vol24": 39232.06,
+   "chg24": -31.19,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "WATCH",
+     "text": "$44.3k across all pools"
+    },
+    "gap": {
+     "v": "FAIL",
+     "text": "9.7% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "WATCH",
+     "text": "$39.2k traded in 24 h"
+    },
+    "survival": {
+     "v": "PASS",
+     "text": "8.9 days old, still trading"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "C",
+    "capped": false,
+    "tier": "RARE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0xec74a7a26583613289f482491fe2bcf677a9f8e8eb9968d43f296d42f329f4aa",
+    "factory": null,
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "WOJAK",
+   "name": "Wojak",
+   "address": "0x9d7e01f6f4dcfBe3df783d18326e4D1Fd8Be16eA",
+   "legs": {
+    "ethereum": "0x9d7e01f6f4dcfBe3df783d18326e4D1Fd8Be16eA",
+    "bsc": "0x60ef0f1f27aabe653eab60d4bbd9eb61cbc3b6ea",
+    "base": "0x2b21b23857685ce0ad7f2422583515d32b1476ea",
+    "robinhood": "0xb6a7f6211e97f341bb270479ce0348dc1cf156ea"
+   },
+   "solanaMint": "ALYcaLvdxJjq65cSJLoHFtxfPMAqeYBUspVG4wk5t6ea",
+   "mcapUsd": 40355,
+   "vol24": 19931.05,
+   "chg24": -28.1,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "WATCH",
+     "text": "$26.5k across all pools"
+    },
+    "gap": {
+     "v": "WATCH",
+     "text": "4.6% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "WATCH",
+     "text": "$19.9k traded in 24 h"
+    },
+    "survival": {
+     "v": "PASS",
+     "text": "8.7 days old, still trading"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "B",
+    "capped": false,
+    "tier": "EPIC"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0xf9100260e00f3bb580f4186d0d7a1ac12e12beccac85b73bdc6179821fea88c6",
+    "factory": null,
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "BULL",
+   "name": "HyperBull",
+   "address": "0xF690c02534A7156F295d33D74d1Be3deFfb366ea",
+   "legs": {
+    "ethereum": "0xF690c02534A7156F295d33D74d1Be3deFfb366ea",
+    "bsc": "0x0f492bc2cd746a3c219f7f8e52f08cba00ac06ea",
+    "base": "0x93e0849d71448e5833a5fb3ddd9c6f1e3927d6ea",
+    "robinhood": "0xeaaf0763ef5b8ed47a4025e7d229387dbf8666ea"
+   },
+   "solanaMint": "BEi969qp2makkESYmQzp1SvLyGqCnuSa9uyo13FuQ6ea",
+   "mcapUsd": 15746,
+   "vol24": 16426.76,
+   "chg24": 1.87,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$12.6k across all pools (thin)"
+    },
+    "gap": {
+     "v": "WATCH",
+     "text": "6% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "WATCH",
+     "text": "$16.4k traded in 24 h"
+    },
+    "survival": {
+     "v": "WATCH",
+     "text": "22 h old: too new to judge"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "PASS",
+     "text": "0 wallet(s) took 0% of the Ethereum pool in the launch block, 4.37% within 10 min · they still hold 0.3%"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "C",
+    "capped": false,
+    "tier": "RARE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x1ee29ed3809f086645d38450b4fcd7ed961653b7c70df6ae9d9b1df9da791918",
+    "factory": "0xf7052a4E38e241bc66bfAe6eB27D10B2A42cacB4",
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "CYBER",
+   "name": "CYBERCURRENCY",
+   "address": "0x0796E48685fda11EDc9C14A4015b4b78AcB726ea",
+   "legs": {
+    "ethereum": "0x0796E48685fda11EDc9C14A4015b4b78AcB726ea",
+    "bsc": "0x8b861bfe5ee06f713b8ee7bbaa7b6c74bdd226ea",
+    "base": "0x7dc22aad7fcca006ab7945842e03c04c83c396ea",
+    "robinhood": "0xb4df2bb2512a0f2edf7f515ad4a7144dd99d06ea"
+   },
+   "solanaMint": "EUWjjJfJj5UWJeanX4AjiqSXECv2amQW7VDgAsQuf6ea",
+   "mcapUsd": 22781,
+   "vol24": 6955.33,
+   "chg24": -10.66,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$17.3k across all pools (thin)"
+    },
+    "gap": {
+     "v": "WATCH",
+     "text": "3.7% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "WATCH",
+     "text": "$7.0k traded in 24 h"
+    },
+    "survival": {
+     "v": "FAIL",
+     "text": "8.6 days old, volume faded"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "D",
+    "capped": false,
+    "tier": "COMMON"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x7cd87cc2c31e32c2964640726478073817857042660b5522f79792bd1c10ffd2",
+    "factory": null,
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "OMNI",
+   "name": "OmniCat",
+   "address": "0x4C043497B009F3FD0fF91D211852C2d5b02826ea",
+   "legs": {
+    "ethereum": "0x4C043497B009F3FD0fF91D211852C2d5b02826ea",
+    "bsc": "0x60e13ac8d2f0fe7a4ba5710a9ba4991a9cd376ea",
+    "base": "0xce590519e61c5cd5bb9e49ec6819aa39cef4e6ea",
+    "robinhood": "0x619b1bb8eee6180805a0188ad6f06810d6dac6ea"
+   },
+   "solanaMint": "FTqbB8HxTHKQVDzBPN1Pq45sSfQLUapZ4UvnsYYUJ6ea",
+   "mcapUsd": 18422,
+   "vol24": 5997.16,
+   "chg24": -6.44,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "WATCH",
+     "text": "-0.3542% vs launch total"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$14.5k across all pools (thin)"
+    },
+    "gap": {
+     "v": "FAIL",
+     "text": "12.3% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "WATCH",
+     "text": "$6.0k traded in 24 h"
+    },
+    "survival": {
+     "v": "FAIL",
+     "text": "8.7 days old, volume faded"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "F",
+    "capped": false,
+    "tier": "THIN ICE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x84700e181c376029a7ec0e6f1b9a97fa519deb97c11a59f8175487a0db07a995",
+    "factory": null,
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "FORGE",
+   "name": "Forge",
+   "address": "0x71487Ddb297e08688Cbd578A161c1bF42CACb6eA",
+   "legs": {
+    "ethereum": "0x71487Ddb297e08688Cbd578A161c1bF42CACb6eA",
+    "bsc": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea",
+    "base": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea",
+    "robinhood": "0x71487ddb297e08688cbd578a161c1bf42cacb6ea"
+   },
+   "solanaMint": "A5Zv6p1zAZPzXEgoLHQe6vUj4GTVoyiuYr9zpXA8g6ea",
+   "mcapUsd": 17088,
+   "vol24": 5621.14,
+   "chg24": -25.91,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$13.6k across all pools (thin)"
+    },
+    "gap": {
+     "v": "FAIL",
+     "text": "11.8% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "WATCH",
+     "text": "$5.6k traded in 24 h"
+    },
+    "survival": {
+     "v": "FAIL",
+     "text": "1.9 days old, volume faded"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "F",
+    "capped": false,
+    "tier": "THIN ICE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x86c0ddb4c819a5364b06a4e94f801c371c557a9c755a8e5a3bdaef5932a63870",
+    "factory": "0xf7052a4E38e241bc66bfAe6eB27D10B2A42cacB4",
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "DINU",
+   "name": "Dinu",
+   "address": "0x34B725A4268e409D15Cd70cC09489d99372306EA",
+   "legs": {
+    "ethereum": "0x34B725A4268e409D15Cd70cC09489d99372306EA",
+    "bsc": "0x34b725a4268e409d15cd70cc09489d99372306ea",
+    "base": "0x34b725a4268e409d15cd70cc09489d99372306ea",
+    "robinhood": "0x34b725a4268e409d15cd70cc09489d99372306ea"
+   },
+   "solanaMint": "7Tm28BFytYmjSBakML9P6AJJ45rJ5CS12oqxMahZ66ea",
+   "mcapUsd": 4335,
+   "vol24": 4878.21,
+   "chg24": -46,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "FAIL",
+     "text": "+71.0985% vs launch total"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$3.6k across all pools (thin)"
+    },
+    "gap": {
+     "v": "FAIL",
+     "text": "18.9% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "FAIL",
+     "text": "$4.9k traded in 24 h"
+    },
+    "survival": {
+     "v": "FAIL",
+     "text": "2.4 days old, volume faded"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "F",
+    "capped": false,
+    "tier": "THIN ICE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0x8690ddaf70203825fad33bfbd6936441fd61a0a6e5f300c42a2fdafe5e077d39",
+    "factory": "0xf7052a4E38e241bc66bfAe6eB27D10B2A42cacB4",
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "PEPE",
+   "name": "PEPE",
+   "address": "0x53977F4aFC1F02f6360E311E1Ac7b0b2a4bbe6EA",
+   "legs": {
+    "ethereum": "0x53977F4aFC1F02f6360E311E1Ac7b0b2a4bbe6EA",
+    "bsc": "0x90c3462a4cc8f6e44ea137a3356fdb50305bc6ea",
+    "base": "0x00bde1d818064f863853e57ecebc390513bc16ea",
+    "robinhood": "0x79a4a5ed595cbf425b7f19de6f92cb14941426ea"
+   },
+   "solanaMint": "E4ZCvJpKVACuXTC3419PUf3bcDDr5utM5nxJvzGum6ea",
+   "mcapUsd": 20142,
+   "vol24": 3088.2799999999997,
+   "chg24": -14.59,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$15.6k across all pools (thin)"
+    },
+    "gap": {
+     "v": "FAIL",
+     "text": "8.6% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "FAIL",
+     "text": "$3.1k traded in 24 h"
+    },
+    "survival": {
+     "v": "FAIL",
+     "text": "8.8 days old, volume faded"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "N/A",
+     "text": "launch buys not read (history too long or other chains)"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "F",
+    "capped": false,
+    "tier": "THIN ICE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0xba6f4bdab4765f52ec4d5d4f21c2bf9f109ff1bfe1c14fa4d8845ec4d0ed89af",
+    "factory": null,
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  },
+  {
+   "launchpad": "Pangea",
+   "symbol": "ZERODAY",
+   "name": "ZERODAY",
+   "address": "0x8425DEF69b491F39f58d8089F715b4E11133b6eA",
+   "legs": {
+    "ethereum": "0x8425DEF69b491F39f58d8089F715b4E11133b6eA",
+    "bsc": "0x55be27f5dff1c285225d68a34bcb0ebc17e4b6ea",
+    "base": "0x4a59fde21b1039ca21190af262d8cc69281f66ea",
+    "robinhood": "0x000901847ef78a75ba90a90061bbfd89301d96ea"
+   },
+   "solanaMint": "DKeSEo1BNGkAkbnm3v3uUxnrTuKTvbhvsBfJMzKmV6ea",
+   "mcapUsd": 15388,
+   "vol24": 3040.3599999999997,
+   "chg24": 2.21,
+   "chains": [
+    "ETH",
+    "BSC",
+    "BASE",
+    "RH",
+    "SOL"
+   ],
+   "checks": {
+    "supply": {
+     "v": "PASS",
+     "text": "adds up across chains (5 chains)"
+    },
+    "mint": {
+     "v": "WATCH",
+     "text": "EVM sealed · Solana: one-wallet upgrade key"
+    },
+    "liquidity": {
+     "v": "FAIL",
+     "text": "$12.3k across all pools (thin)"
+    },
+    "gap": {
+     "v": "FAIL",
+     "text": "10.2% between cheapest and dearest chain"
+    },
+    "traction": {
+     "v": "FAIL",
+     "text": "$3.0k traded in 24 h"
+    },
+    "survival": {
+     "v": "FAIL",
+     "text": "3.6 days old, volume faded"
+    },
+    "fees": {
+     "v": "N/A",
+     "text": "standard launch (no tokenomics vault)"
+    },
+    "launch": {
+     "v": "PASS",
+     "text": "0 wallet(s) took 0% of the Ethereum pool in the launch block"
+    },
+    "team": {
+     "v": "N/A",
+     "text": "team wallets not traced yet"
+    }
+   },
+   "grade": {
+    "g": "F",
+    "capped": false,
+    "tier": "THIN ICE"
+   },
+   "checkedAt": "2026-10-30T11:53:44.740Z",
+   "receipts": {
+    "launchTx": "0xcb76e279cd363f8f4fa5eadb0573a05f3fcf55778f470202344ef41569790861",
+    "factory": "0x42CBF0f8a66B04E9537b58e9F5921ABf610FBb8a",
+    "supply": "localSupply() per EVM leg + Solana getTokenSupply, summed against launchTotal()",
+    "platformKey": {
+     "program": "SNyKyiZYU4R54SF9sYLmjCaCUsa1sC6QouNAj3x3Zzf",
+     "upgradeAuthority": "848jBDi9bJWoDwxhLGXsX3aXjSmdxsawSN3Tb32DyNgL",
+     "lastDeploySlot": 461179193
+    },
+    "vault": null
+   }
+  }
+ ]
+}
